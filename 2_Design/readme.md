@@ -7,5 +7,5 @@
 
 ## Use Case:
 
-![screen 1500px](../Images\Behaviouraldesign.png)
+![screen 1500px](../Images/Behaviouraldesign.png)
 
