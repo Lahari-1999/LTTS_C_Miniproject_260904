@@ -1,6 +1,8 @@
 #include"calendar.h"
 int MONTH_CALENDAR_DISPLAY(int year,int month)
 {
+int days_in_month[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
+char *months[]={" ","\n\n\nJanuary","\n\n\nFebruary","\n\n\nMarch","\n\n\nApril","\n\n\nMay","\n\n\nJune","\n\n\nJuly","\n\n\nAugust","\n\n\nSeptember","\n\n\nOctober","\n\n\nNovember","\n\n\nDecember"};
 	system("cls");
 	printf("LTTS_C_Miniproject \n\n%cCALENDAR PROJECT%c\n\n",40,41);
 	int m,d,weekday=starting_weekday_of_year(year);
