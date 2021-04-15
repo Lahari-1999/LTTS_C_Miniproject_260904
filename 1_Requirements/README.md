@@ -14,6 +14,8 @@ Research Calendar, intends to help you navigate the many programing opportunitie
 4. It sets boundaries.
 * Calendars are a simple and effective tool to help keep us productive and maximize our day
 
+
+
 ## 4W's and 1H
 ### Who: 
 Calendar is an application which is used to know the Date,Day and an year .It is used by any human being in any time knowing/tracking purpose.
