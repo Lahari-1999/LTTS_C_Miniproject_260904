@@ -1,4 +1,5 @@
-#include"calendar.h"
+#include "calendar.h"
+
 int select_menu()
 {
 	system("cls");

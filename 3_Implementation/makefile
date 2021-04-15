@@ -3,6 +3,7 @@ PROJ_NAME = main
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC =src/input_year.c \
+src/input_day.c \
 src/input_month.c \
 src/verify_leapy_year.c \
 src/input_starting_weekdayofyear.c \
@@ -12,6 +13,22 @@ src/input_YEAR_CALENDAR_DISPLAY.c \
 src/input_MONTH_CALENDAR_DISPLAY.c \
 src/choose_module.c \
 src/input_select_menu.c \
+
+# All test source files
+TEST_SRC = src/input_year.c \
+src/input_day.c \
+src/input_month.c \
+src/verify_leapy_year.c \
+src/input_starting_weekdayofyear.c \
+src/input_YEAR_INFO.c \
+src/input_DAY_INFO.c \
+src/input_YEAR_CALENDAR_DISPLAY.c \
+src/input_MONTH_CALENDAR_DISPLAY.c \
+src/choose_module.c \
+src/input_select_menu.c \
+test/testcases.c\
+unity/unity.c\
+
 
 INC_H = inc
 INC_T = unity

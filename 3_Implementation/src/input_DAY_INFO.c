@@ -1,3 +1,4 @@
+#include "calendar.h"
 int DAY_INFO(int year,int month,int day)
 {
 	
@@ -67,7 +68,7 @@ int DAY_INFO(int year,int month,int day)
 	printf("MENU OPTIONS >>  " );
 	system("pause");
 	select_menu();
-	return 0;
+	return doy;
 	
 	
 }

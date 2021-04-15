@@ -17,7 +17,16 @@
  * 
  * @return int 
  */
+#include <stdio.h>
+#include <stdlib.h>
+
+int input_day(void);
+
+int input_year(void);
+
+
 int input_month(void);
+
 
 /**
  * @brief 

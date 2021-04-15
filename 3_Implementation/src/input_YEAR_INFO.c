@@ -1,4 +1,4 @@
-#include"calendar.h"
+#include "calendar.h"
 
 
 int YEAR_INFO(int year)
@@ -59,7 +59,7 @@ int YEAR_INFO(int year)
 	printf("MENU OPTIONS >>  " );
 	system("pause");
 	select_menu();
-	return 0;
+	return (int)firstday;
 	
 	
 }
