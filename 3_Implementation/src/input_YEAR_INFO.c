@@ -59,7 +59,7 @@ int YEAR_INFO(int year)
 	printf("MENU OPTIONS >>  " );
 	system("pause");
 	select_menu();
-	return (int)firstday;
+	return 1;
 	
 	
 }

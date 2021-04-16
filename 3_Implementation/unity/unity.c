@@ -5,6 +5,7 @@
 ============================================================================ */
 
 #include "unity.h"
+#include "calendar.h"
 #include <stddef.h>
 
 #ifdef AVR

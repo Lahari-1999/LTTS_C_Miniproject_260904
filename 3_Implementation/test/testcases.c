@@ -1,10 +1,11 @@
-#include "unity.h"
 #include "calendar.h"
+#include "unity.h"
 
-void check_DAY_INFO();
-void check_YEAR_CALENDAR_DISPLAY();
-void check_YEAR_INFO();
-void check_MONTH_CALENDAR_DISPLAY();
+
+/*void check_DAY_INFO(void);
+void check_YEAR_CALENDAR_DISPLAY(void);
+void check_YEAR_INFO(void);
+void check_MONTH_CALENDAR_DISPLAY(void);*/
 
 
 /* Required by the unity test framework */
@@ -15,6 +16,27 @@ void setUp()
 void tearDown()
 {
 }
+
+
+
+
+void check_DAY_INFO(void){
+TEST_ASSERT_EQUAL(1,DAY_INFO(2021,1,1));
+printf("\nTEST PASSED :::::: check_DAY_INFO\n");
+}
+
+void check_YEAR_CALENDAR_DISPLAY(void){
+TEST_ASSERT_EQUAL(0,YEAR_CALENDAR_DISPLAY(2021,4));
+}
+
+void check_YEAR_INFO(void){
+TEST_ASSERT_EQUAL(1,YEAR_INFO(2021));
+}
+
+void check_MONTH_CALENDAR_DISPLAY(void){
+TEST_ASSERT_EQUAL(0,MONTH_CALENDAR_DISPLAY(2021,4));
+}
+
 
 
 
@@ -43,33 +65,6 @@ RUN_TEST(check_MONTH_CALENDAR_DISPLAY);
  /* Close the Unity Test Framework */
     return UNITY_END();
 }
-
-
-
-
-void check_DAY_INFO(){
-TEST_ASSERT_EQUAL(1,DAY_INFO(2021,1,1));
-printf("\nTEST PASSED :::::: check_DAY_INFO\n");
-}
-
-void check_YEAR_CALENDAR_DISPLAY(){
-TEST_ASSERT_EQUAL(0,YEAR_CALENDAR_DISPLAY(2021,4));
-}
-
-void check_YEAR_INFO(){
-TEST_ASSERT_EQUAL((int)friday,YEAR_INFO(2021));
-}
-
-void check_MONTH_CALENDAR_DISPLAY(){
-TEST_ASSERT_EQUAL(0,MONTH_CALENDAR_DISPLAY(2021,4));
-}
-
-
-
-
-
-
-
 
 
 
