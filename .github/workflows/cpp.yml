@@ -1,9 +1,10 @@
-name: Static Code Quality- Cppcheck
+name: Code Quality - Static Code - Cppcheck
 
 on:
   push:
     branches: [ main ]
-  
+  pull_request:
+    branches: [ main ]
 
 jobs:
   cppcheck:
