@@ -6,7 +6,7 @@ Periods in a schedule (like years and months) are as a rule, however not really,
 
  
 ## Objective: 
-1. My project is a multi-functional calendar application that enables users to Make their Daily routine workflow easier with 4 Basic Modules. It gives the complete details of the calendar in which it declares the year information(  no. of weeks, no. of days, whether it is a leap year or not, no of months, starting weekday of the year ), Day information, month information, yearly calendar display, month calendar display.This project aims to simplify to maintain the data of a complete calendar of any year
+1. My project is a multi-functional calendar application that enables users to Make their Daily routine workflow easier with 4 Basic Modules. It gives the complete details of the calendar in which it declares the year information(  no. of weeks, no. of days, whether it is a leap year or not, no of months, starting weekday of the year ), Day information, month information, yearly calendar display, month calendar display.This project aims to simplify to maintain the data of a complete calendar of any year.
 # Research
 Research Calendar, intends to help you navigate the many programing opportunities and resources available to support your research endeavors at Princeton, including junior and senior independent work. Use this one-stop resource to learn about upcoming events and plan ahead for important deadlines regarding funding, internships, and fellowships.
 ## Benefits
