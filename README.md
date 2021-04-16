@@ -4,6 +4,6 @@ A calendar is a system of organizing days. This is finished by offering names to
 
 Periods in a schedule (like years and months) are as a rule, however not really, synchronized with the pattern of the sun or the moon. The most widely recognized sort of pre-present day schedule was the lunisolar schedule, a lunar schedule that once in a while adds one intercalary month to stay synchronized with the sun based year over the long haul. 
 
-| Git Inspector |
-|---------------|
-|[![Contribution Check - Git Inspector](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/Gitinspector.yml)|
+| Git Inspector | Code Quality|
+|---------------|-------------|
+|[![Contribution Check - Git Inspector](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/Gitinspector.yml)|[![Static Code Quality- Cppcheck](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/cpp.yml/badge.svg)](https://github.com/Lahari-1999/LTTS_C_Miniproject_260904/actions/workflows/cpp.yml)
