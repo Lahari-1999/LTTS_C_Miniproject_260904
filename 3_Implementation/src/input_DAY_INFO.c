@@ -66,8 +66,8 @@ int DAY_INFO(int year,int month,int day)
 	
 	printf("\n\n" );
 	printf("MENU OPTIONS >>  " );
-	system("pause");
-	select_menu();
+	//system("pause");
+	//select_menu();
 	return doy;
 	
 	

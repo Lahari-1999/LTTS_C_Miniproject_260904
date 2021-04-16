@@ -40,9 +40,9 @@ char *months[]={" ","\n\n\nJanuary","\n\n\nFebruary","\n\n\nMarch","\n\n\nApril"
 	}
 	printf("\n\n" );
 	printf("\n\nMENU OPTIONS >>  " );
-	system("pause");
-	select_menu();
-	return 0;
+	//system("pause");
+	//select_menu();
+	return 1;
 	
 	
 }

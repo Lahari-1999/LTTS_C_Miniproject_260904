@@ -57,8 +57,8 @@ int YEAR_INFO(int year)
 	
 	printf("\n\n" );
 	printf("MENU OPTIONS >>  " );
-	system("pause");
-	select_menu();
+	//system("pause");
+	//select_menu();
 	return 1;
 	
 	
