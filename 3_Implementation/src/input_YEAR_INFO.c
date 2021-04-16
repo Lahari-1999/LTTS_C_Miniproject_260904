@@ -1,10 +1,10 @@
-#include "calendar.h"
+#include "calendar.h" // including header file
 
 
-int YEAR_INFO(int year)
+int YEAR_INFO(int year) // function for displaying year info with parameter year
 {   
     int fd=starting_weekday_of_year(year);
-    char *firstday;
+    char *firstday; // pointer variable for storing the week information
 	if(fd==0)
 	{
 		firstday = "SUNDAY";
@@ -38,7 +38,7 @@ int YEAR_INFO(int year)
 	
 	printf("\t\t LTTS_C_Miniproject \n\n\t\t%c CALENDAR PROJECT %c\n\n\n",40,41);
 	printf("\n\t\t YEAR INFO\t%d\n",year);
-	if(verify_leapy_year(year)==1)
+	if(verify_leapy_year(year)==1) //if it is leap year then it displays year information
 	{
 		printf("\n\t\t LEAP YEAR\n");
 		printf("\n\t\t NO.OF MONTHS\t:\t%d\n",12);
@@ -46,7 +46,7 @@ int YEAR_INFO(int year)
 		printf("\n\t\t NO.OF DAYS\t:\t%d\n",366);	
 		printf("\n\t\t STARTING WEEKDAY OF THE YEAR :\t%s\n\n\n\n\n",firstday);
 	}
-	else
+	else //if it is  not a leap year then it displays year information
 	{
 		printf("\n\t\t NORMAL YEAR\t(NOT LEAP YEAR)\n");
 		printf("\n\t\t NO.OF MONTHS\t%d\n",12);
